@@ -10,7 +10,6 @@ else:
     print(f"連線失敗:{response.status_code}")
 
 
-
 dataFrame = pd.DataFrame(data=all_data,columns=['sna','tot','sbi','sarea','mday','ar','bemp','act'])
 min = int(input("請輸入要查詢的可借數量:"))
 mask = dataFrame['sbi'] <= min
