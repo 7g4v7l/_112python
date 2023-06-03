@@ -1,7 +1,7 @@
 import streamlit as st
 import datetime
 
-title = st.text_input('Movie title', 'Life of Brian')
+title = st.text_input('Movie title','aa')
 st.write('The current movie title is', title)
 
 
