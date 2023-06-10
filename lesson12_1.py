@@ -11,7 +11,7 @@ with st.sidebar:
     
 @st.cache_data
 def fetch_stock_dataFrame(id):
-    stock_dataFrame = yf.download(id,start='2022-01-01')
+    stock_dataFrame = yf.download(id,start='2010-01-01')
     return stock_dataFrame
 
 for code in selected_codes:
